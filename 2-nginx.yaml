@@ -1,6 +1,6 @@
 #interview question is to install nginx and run nginx 
 - name: install and run nginx 
-  host: web
+  hosts: web
   become: yes #equal to -b root access 
   tasks:
   - name: install nginx
