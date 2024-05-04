@@ -5,5 +5,5 @@
   tasks: # if having more number of variables then used separate file to create vars with files and we pass that file name in variable declaration
   - name: working variables with files
     ansible.builtin.debug:
-      msg: "Hi we are learing {{ course }}, Trainer is {{ Trainer }} and Duration is {{ Duration }}"
+      msg: "Hi we are learing {{ Course }}, Trainer is {{ Trainer }} and Duration is {{ Duration }}"
 
