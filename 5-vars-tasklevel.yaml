@@ -4,7 +4,7 @@
     course: "Terraform"
     Trainer: "Siva kumar"
     Duration: "120 hrs"
-  tasks: #task level
+  tasks: #task level 1st preference is for task level only
   - name: print override info
     vars: 
       course: "Devops"
