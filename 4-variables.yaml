@@ -1,10 +1,10 @@
 - name: variables
   hosts: localhost
-  vars:
+  vars: #variables declaration play level 
    course: "Devops"
    Trainer: "Siva kumar"
    Duration: "120 hrs"
-  tasks:
+  tasks: #task level
   - name: working with variables
     ansible.builtin.debug:
       msg: "Hi we are learning {{ course }}, Trainer is {{ Trainer }} and Duration is {{ Duration }} "
