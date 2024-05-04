@@ -5,4 +5,4 @@
     vars:
       Timing: "8:00 AM"
     ansible.builtin.debug:
-      msg: "Hi we are learing {{ course }}, Trainer is {{ Trainer }} and Duration is {{ Duration }} and timing is {{ Timing }}"
+      msg: "Hi we are learing {{ Course }}, Trainer is {{ Trainer }} and Duration is {{ Duration }} and timing is {{ Timing }}"
