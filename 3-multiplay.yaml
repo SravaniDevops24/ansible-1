@@ -26,5 +26,12 @@
     ansible.builtin.debug:
       msg: "Hi, I am from Play-4 and Task-1"
 
+- name: Play-5
+  hosts: localhost
+  tasks: 
+  - name: Play-5 and Task-5
+    ansible.builtin.debug:
+      msg: "Hi i am from play-5 and Task-5"
+
 
 
