@@ -1,0 +1,17 @@
+- name: check number 
+  hosts: web
+  vars_prompt:
+  - name: number
+    prompt: Please enter number
+    private: false
+
+  tasks:
+  - name: number is less than 10
+    ansible.builtin.debug:
+      msg: "number is {{number}} is less than 10"  
+    when: number < 10
+
+  - name: number is greater than 10
+    ansible.builtin.debug:
+      msg: "number is {{number}} is greater than 10"
+    when: number > 10    
