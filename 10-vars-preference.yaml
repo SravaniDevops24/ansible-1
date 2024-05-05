@@ -14,9 +14,9 @@
 
   tasks: 
   - name: vars with preference
-    vars:
-      Person: from task
-      WISHES: vars from Task level
+    # vars:
+    # Person: from task
+    # WISHES: vars from Task level
 
     ansible.builtin.debug:
       msg: "Hi {{Person}}, {{WISHES}}"
