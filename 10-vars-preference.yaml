@@ -1,6 +1,7 @@
 - name: variables preference
   hosts: localhost
   vars:
+    Person; from play
     WISHES: vars from Play level
 
   vars_files:
@@ -14,6 +15,7 @@
   tasks: 
   - name: vars with preference
     vars:
+      Person: from task
       WISHES: vars from Task level
 
     ansible.builtin.debug:
