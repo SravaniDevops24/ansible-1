@@ -1,7 +1,7 @@
 - name: variables with using vars files
   hosts: localhost
   vars_files: #variable declaration 
-    varsfiles.yaml
+  - varsfiles.yaml
   tasks: # if having more number of variables then used separate file to create vars with files and we pass that file name in variable declaration
   - name: working variables with files
     ansible.builtin.debug:
