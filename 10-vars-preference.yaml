@@ -8,7 +8,7 @@
   - varsfiles.yaml
 
   vars_prompt:
-    - name: WISHES
+    - name: Person, WISHES
       prompt: please enter prompt
       private: false
 
