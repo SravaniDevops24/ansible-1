@@ -1,8 +1,8 @@
 - name: variables preference
   hosts: localhost
-  vars:
-    Person: from play
-    WISHES: vars from Play level
+  #vars:
+    #Person: from play
+    #WISHES: vars from Play level
 
   vars_files:
   - varsfiles.yaml
