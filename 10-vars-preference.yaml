@@ -7,8 +7,8 @@
   - varsfiles.yaml
 
   vars_prompt:
-    - name: wishes
-      prompt: wishes from prompt
+    - name: WISHES
+      prompt: please enter prompt
       private: false
 
   tasks: 
