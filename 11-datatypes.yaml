@@ -8,9 +8,14 @@
      - shell
      - ansible
 
-    experience: # map or dictionary
+    Experience: # map or dictionary
       Devops: 3 # number
       AWS: 2
       Docker: 1
 
-    RealProject: true # boolean   
+    RealProject: true # boolean  
+
+  tasks:
+  - name: datatypes 
+    ansible.builtin.debug:
+      msg: "Course: {{Course}}, Tools discussed: {{Tools}}, Experience is {{Experience}}, Real project is {{RealProject}}" 
