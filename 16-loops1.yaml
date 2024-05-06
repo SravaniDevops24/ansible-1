@@ -1,4 +1,4 @@
-- name: install packages
+- name: install all packages
   hosts: localhost
   become: yes
   tasks:
