@@ -5,7 +5,7 @@
     ansible.builtin.debug:
       msg: "loop is {{item}}"
 
-  loop:
-  - Linux
-  - Shell Scripting
-  - Ansible    
+    loop:
+    - Linux
+    - Shell Scripting
+    - Ansible    
